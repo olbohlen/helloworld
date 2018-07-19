@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "this is a custom assemble script"
+
+echo "pre-assemble instruction..."
+
+/usr/libexec/s2i/assemble
+rc=$?
+
+echo "post-assemble instruction..."
+
+exit $rc
