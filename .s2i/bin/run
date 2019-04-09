@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "this is a custom run script"
-sleep 120
+sleep 20
 exec /usr/libexec/s2i/run
